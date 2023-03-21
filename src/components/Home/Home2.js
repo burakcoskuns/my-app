@@ -1,4 +1,5 @@
 import React from "react";
+import { AiFillPhone, AiFillMail } from 'react-icons/ai';
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
@@ -62,20 +63,22 @@ function Home2() {
           <Col md={12} className="home-about-social">
             <h1>FIND US ON</h1>
             <p>
-              Feel free to <span className="purple">contact</span> us
+              Feel free to <span className="purple">contact</span> us;
             </p>
             <ul className="home-about-social-links">
               <li className="social-icons">
-                <a
-                  href="tel:123-456-7890"
-                  className="icon-colour  home-social-icons"
-                >
+                <a href="tel:+905332811654" className="icon-colour  home-social-icons">
                   <AiFillPhone />
                 </a>
               </li>
               <li className="social-icons">
+                <a href="tel:+905336128286" className="icon-colour  home-social-icons">
+                   <AiFillPhone />
+                </a>
+              </li>
+              <li className="social-icons">
                 <a
-                  href="mailto:info@example.com"
+                  href="mailto:info@bpcaltyapi.com"
                   className="icon-colour  home-social-icons"
                 >
                   <AiFillMail />
@@ -89,4 +92,4 @@ function Home2() {
   );
 }
 
-export default Home2;
+export default Home2
