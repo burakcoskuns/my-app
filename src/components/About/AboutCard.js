@@ -1,26 +1,35 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import { ImPointRight } from "react-icons/im";
+/*import { ImPointRight } from "react-icons/im";*/
 
 function AboutCard() {
   return (
     <Card className="quote-card-view">
       <Card.Body>
         <blockquote className="blockquote mb-0">
-          <p style={{ textAlign: "justify" }}>
-            Hi Everyone, We are <span className="purple">BPC Altyapı&Otomasyon LTD.STI. </span>
-           from <span className="purple"> Istanbul, Türkiye.</span>
-            <br /> As BPC, The advancement of technology and increasing demands from businesses require processes to be made more efficient, faster, and error-free. To achieve this, it is important to select the most suitable technologies and develop automation software on top of these technologies.
-
-These technologies and software help to perform processes more quickly and accurately, reducing the need for human involvement and preventing process errors. For example, an automation software can be used for an accounting process. This software enables automatic closure of accounts, report generation, and other operations. This reduces the possibility of human errors and ensures that processes are completed more quickly and efficiently. Similarly, an automotive manufacturer can automate sales and distribution processes. For instance, sales and distribution data can be stored in a database and reports can be automatically generated. This reduces the need for human involvement and lowers the probability of process errors.
-
-In conclusion, utilizing the most suitable technologies and automation software helps businesses to make their processes more efficient, faster, and error-free. This increases the efficiency and profitability of the business, providing a competitive advantage
-            <br />
-            <br />
-            Apart from coding, some other activities that we love to do!
+          <p style={{ textJustify: "auto" }}>
+            <br />BPC Altyapı&Otomasyon: Teknoloji ve İnovasyon İle İş Süreçlerinizi Dönüştürün
+          </p>
+          <p style={{ textAlign: "left", textJustify: "auto" }}>
+            <br />BPC Altyapı&Otomasyon, İstanbul, Türkiye merkezli bir EPC (engineering procurement construction) firmasıdır. Hedefimiz, tüm sektör ve alanlarda faaliyet gösteren firmalara bilgi teknolojileri ve donanımsal ürün tedariği sağlamak, projelerin uygulanması ve devreye alınması süreçlerinde baştan sona destek vermek ve yazılımsal otomasyon hizmetleri sunarak süreçlerin daha verimli, hızlı ve hatasız hale getirilmesine katkıda bulunmaktır.
+          </p>
+          <p style={{ textAlign: "left", textJustify: "auto" }}>
+            <br />Deneyimli ve uzman ekibimizle, ofisler, hastaneler, okullar, toplantı ve sunum salonları, perakende çalışma sahaları, kurum server odaları ve iç-dış mekan LED reklam panelleri gibi geniş bir uygulama alanında hizmet vermekteyiz.
+            <p style={{ textAlign: "left", textJustify: "auto" }}>
+          </p> 
+            <br />Görüntüleme sistemleri, IT ürünleri, bağlantı ve IoT ekipmanları, server donanım gereksinimleri ve yazılım otomasyonu gibi kapsamlı hizmetlerimizle, iş süreçlerinizi ve altyapınızı dönüştürerek maliyet optimizasyonu, yeni ihtiyaçlara göre entegrasyon ve iyileştirme konularında size destek oluyoruz.
+          </p>
+          <p style={{ textAlign: "left", textJustify: "auto" }}>
+            <br />Talep edilen kullanım amacına göre uyumlu tüm donanım ürünlerini seçmekte, yerinde kablolama uygulamalarını gerçekleştirmekte, tüm sistemin testlerini yaparak kullanıma en kolay hale getirerek “tak-çalıştır” durumunda nihai kullanıcıya teslim etmekteyiz.
+          </p>
+          <p style={{ textAlign: "left", textJustify: "auto" }}>
+            <br />Satış ve kurulum sonrası ek hizmetlerimizle, periyodik bakım, onarım, yazılım güvenliği ve depolama desteği sağlayarak sürekli iyileştirme ve sistemlerin korunmasına önem veriyoruz. Müşteri geri bildirimlerine büyük değer atfederek, güven, donanım ve yazılımların sorunsuz işleyişi konularında süreklilik sağlayan ilişkiler kuruyoruz.
+          </p>
+          <p style={{ textAlign: "left", textJustify: "auto" }}>
+            <br />BPC Altyapı&Otomasyon olarak, "işlerin fark yaratan şekilde inşa edilmesi" için çaba gösteriyoruz. İş süreçlerinizin teknoloji ve inovasyonla dönüşümüne katkı sağlayarak sizlere rekabet avantajı sunmayı hedefliyoruz. Bizimle çalışarak, iş süreçlerinizi daha verimli, hızlı ve hatasız hale getirecek teknolojiler ve otomasyon yazılımları kullanarak iş dünyasında öne çıkabilirsiniz.
           </p>
           <ul>
-            <li className="about-activity">
+            {/*<li className="about-activity">
               <ImPointRight /> Installation of applied visual products
             </li>
             <li className="about-activity">
@@ -28,9 +37,8 @@ In conclusion, utilizing the most suitable technologies and automation software 
             </li>
             <li className="about-activity">
               <ImPointRight /> Implementation of applied projects such as commissioning
-            </li>
+            </li>*/}
           </ul>
-
           <p style={{ color: "rgb(155 126 172)" }}>
             "Strive to build things that make a difference!"{" "}
           </p>

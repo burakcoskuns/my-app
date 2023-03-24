@@ -6,7 +6,8 @@ function Type() {
     <Typewriter
       options={{
         strings: [
-          "Automation&Server Room Infrastructure",
+          "Automate to Avoid Human Errors",
+          "Server Room Infrastructure",
           "Scripting with Python, CSS, C++",
           "Server Hardware Requirements",
           "Display Systems and IT Products",
