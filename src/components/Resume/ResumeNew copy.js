@@ -13,36 +13,6 @@ function Presentation() {
     link.click();
   };
 
-  const summary = `
-BPC Altyapı ve Otomasyon, sektör ve alanlarda üreten/hizmet veren firmalara bilgi teknolojileri ve donanımsal ürün tedariği sağlayan, yerinde uygulama ve satış sonrası destek hizmetleri sunan, proje bazlı çalışabilen bir bilgi işlem-altyapı çözüm ortağı ve EPC (engineering procurement construction) firmasıdır. İlave olarak, görüntüleme sistemlerinde kullanılan LED panel ve projeksiyon cihazları uygulamaları haricinde yazılımsal otomasyon hizmeti ve desteği de sağlamaktadır.
-
-Hizmetler ve Ürünler:
-- Görüntüleme Sistemleri ve IT ürünleri
-- Bağlantı ve IoT Ekipmanı
-- Server Donanım Gereksinimleri
-- Yazılım - Otomasyon
-
-Uygulama Alanları:
-- Ofisler, hastaneler, okullar
-- Toplantı, sınıf ve sunum salonları
-- Perakende çalışma sahaları
-- Kurum server odaları
-- İç-dış mekan LED reklam panelleri
-- Videowall, dış mekan uygulamalar
-
-Hizmet süreci, donanım ürünlerinin seçilmesi, yerinde kablolama uygulamalarının yapılması, sistemin test edilip kullanıma hazır hale getirilerek nihai kullanıcıya teslim edilmesini kapsar.
-
-Örnek projeler ve müşteri geri bildirimleri, BPC Altyapı ve Otomasyon'un güvenilir ve maliyet optimizasyonu sağlayan bir iş ortağı olduğunu göstermektedir.
-
-İletişim Bilgileri:
-Bpc Altyapı ve Otomasyon Sistemleri Ltd.Şti.
-TR Adres: Cihangir mah. İleri sk. No:24 Avcılar İstanbul
-Çağrı Arslan - Proje Satış Mühendisi +(90)5336128286
-Burak Coşkun - Satış Müh. & IT Developer +(90)5332811654 / +(1)8628727072
-Mail: info@bpcaltyapi.com
-  `;
-
-
   return (
     <Container fluid className="resume-section">
       <Particle />
@@ -55,7 +25,6 @@ Mail: info@bpcaltyapi.com
           </a>{" "}
           as an attachment.
         </p>
-        <p style={{ marginTop: "20px", textAlign: "center" }}>{summary}</p>
         <Button
           variant="primary"
           onClick={downloadPresentation}
