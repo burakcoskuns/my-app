@@ -22,7 +22,7 @@ function Presentation() {
 
       <Row style={{ justifyContent: "center", position: "relative" }}>
         <div className="products-services">
-          <h4 className="service-heading purple">Ürünler and Hizmetler</h4>
+          <h4 className="service-heading purple">Ürünler ve Hizmetler</h4>
           <ul className="service-list" style={{ listStyleType: "none" }}>
             <li>Görüntüleme Sistemleri ve IT ürünleri</li>
             <li>Bağlantı ve IoT Ekipmanı</li>
