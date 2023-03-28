@@ -1,5 +1,6 @@
 {
-  "name": "portfolio",
+  "name": "BPC",
+  "homepage": "https://www.bpcaltyapi.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
