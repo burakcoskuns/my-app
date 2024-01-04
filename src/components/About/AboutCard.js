@@ -8,25 +8,25 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textJustify: "auto" }}>
-            <br />BPC Altyapı&Otomasyon: Teknoloji ve İnovasyon İle İş Süreçlerinizi Dönüştürün
+            <br />BPC Infrastructure & Automation: Transforming Your Business Processes with Technology and Innovation
           </p>
           <p style={{ textAlign: "left", textJustify: "auto" }}>
-            <br />BPC Altyapı&Otomasyon, İstanbul, Türkiye merkezli bir EPC (engineering procurement construction) firmasıdır. Hedefimiz, tüm sektör ve alanlarda faaliyet gösteren firmalara bilgi teknolojileri ve donanımsal ürün tedariği sağlamak, projelerin uygulanması ve devreye alınması süreçlerinde baştan sona destek vermek ve yazılımsal otomasyon hizmetleri sunarak süreçlerin daha verimli, hızlı ve hatasız hale getirilmesine katkıda bulunmaktır.
+            <br />
           </p>
           <p style={{ textAlign: "left", textJustify: "auto" }}>
-            <br />Deneyimli ve uzman ekibimizle, ofisler, hastaneler, okullar, toplantı ve sunum salonları, perakende çalışma sahaları, kurum server odaları ve iç-dış mekan LED reklam panelleri gibi geniş bir uygulama alanında hizmet vermekteyiz.
+            <br />With our experienced and expert team, we provide services in a wide range of applications including offices, hospitals, schools, conference and presentation halls, retail workspaces, corporate server rooms, and indoor-outdoor LED advertising panels.
             <p style={{ textAlign: "left", textJustify: "auto" }}>
           </p> 
-            <br />Görüntüleme sistemleri, IT ürünleri, bağlantı ve IoT ekipmanları, server donanım gereksinimleri ve yazılım otomasyonu gibi kapsamlı hizmetlerimizle, iş süreçlerinizi ve altyapınızı dönüştürerek maliyet optimizasyonu, yeni ihtiyaçlara göre entegrasyon ve iyileştirme konularında size destek oluyoruz.
+            <br />With our comprehensive services in display systems, IT products, connectivity and IoT equipment, server hardware requirements, and software automation, we support you in transforming your business processes and infrastructure. Our aim is to achieve cost optimization, integration according to new requirements, and improvements in your operations.
           </p>
           <p style={{ textAlign: "left", textJustify: "auto" }}>
-            <br />Talep edilen kullanım amacına göre uyumlu tüm donanım ürünlerini seçmekte, yerinde kablolama uygulamalarını gerçekleştirmekte, tüm sistemin testlerini yaparak kullanıma en kolay hale getirerek “tak-çalıştır” durumunda nihai kullanıcıya teslim etmekteyiz.
+            <br />We specialize in selecting all hardware products compatible with the requested usage purpose, executing on-site cabling applications, and conducting comprehensive system tests to simplify usability. Our goal is to deliver the system to the end-user in a 'plug-and-play' condition, ensuring ease of use and efficiency.
           </p>
           <p style={{ textAlign: "left", textJustify: "auto" }}>
-            <br />Satış ve kurulum sonrası ek hizmetlerimizle, periyodik bakım, onarım, yazılım güvenliği ve depolama desteği sağlayarak sürekli iyileştirme ve sistemlerin korunmasına önem veriyoruz. Müşteri geri bildirimlerine büyük değer atfederek, güven, donanım ve yazılımların sorunsuz işleyişi konularında süreklilik sağlayan ilişkiler kuruyoruz.
+            <br />With our additional services following sales and installation, we emphasize continual improvement and protection of systems by providing periodic maintenance, repair, software security, and storage support. We place great value on customer feedback, establishing enduring relationships centered on trust, seamless hardware operation, and software performance.
           </p>
           <p style={{ textAlign: "left", textJustify: "auto" }}>
-            <br />BPC Altyapı&Otomasyon olarak, "işlerin fark yaratan şekilde inşa edilmesi" için çaba gösteriyoruz. İş süreçlerinizin teknoloji ve inovasyonla dönüşümüne katkı sağlayarak sizlere rekabet avantajı sunmayı hedefliyoruz. Bizimle çalışarak, iş süreçlerinizi daha verimli, hızlı ve hatasız hale getirecek teknolojiler ve otomasyon yazılımları kullanarak iş dünyasında öne çıkabilirsiniz.
+            <br />At BPC Infrastructure & Automation, we strive to build business processes in a way that makes a difference. By contributing to the transformation of your business processes through technology and innovation, we aim to provide you with a competitive edge. Working with us, you can leverage technologies and automation software to make your business processes more efficient, faster, and error-free, thus standing out in the business world.
           </p>
           <ul>
             {/*<li className="about-activity">
