@@ -36,3 +36,14 @@
     transform: rotate(360deg);
   }
 }
+
+/* Transition effect for enlarging font size */
+.hover-enlarge {
+  transition: font-size 0.3s ease;
+}
+
+/* On hover, increase the font size by 50% */
+.hover-enlarge:hover {
+  font-size: 350%;
+}
+

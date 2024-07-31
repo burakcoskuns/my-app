@@ -3,7 +3,7 @@ import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowAltCircleDown } from "@fortawesome/free-solid-svg-icons";
-import QRCode from "../../Assets/QRCode.png"; // QR kodunun proje içindeki yolu
+
 
 const presentationUrl =
   "https://docs.google.com/presentation/d/1DPUY7ampNHHfqq4XiZ_rmgWVygHbNqAEbNnztpddR6I/edit?usp=sharing";
@@ -20,13 +20,11 @@ function Presentation() {
     <Container fluid className="resume-section">
       <Particle />
 
-      {/* Ürünler ve Hizmetler Bölümü */}
       <Row style={{ justifyContent: "center", position: "relative" }}>
         <div className="products-services">
           <h4 className="service-heading purple">Products and Services</h4>
           <ul className="service-list" style={{ listStyleType: "none" }}>
             <li>Display Systems and IT Products</li>
-            <li>Smart Office and Home Automation</li>
             <li>Connectivity and IoT Equipment</li>
             <li>Server Hardware Requirements</li>
             <li>Software - Automation</li>
@@ -34,7 +32,6 @@ function Presentation() {
         </div>
       </Row>
 
-      {/* Uygulama Alanları Bölümü */}
       <Row style={{ justifyContent: "center", position: "relative" }}>
         <div className="products-services">
           <h4 className="service-heading purple">Areas of Implementation</h4>
@@ -48,7 +45,6 @@ function Presentation() {
         </div>
       </Row>
 
-      {/* Proje Örnekleri ve Müşteri Geri Bildirimleri Bölümü */}
       <Row style={{ justifyContent: "center", position: "relative" }}>
         <div className="products-services">
           <h4 className="service-heading purple">Project Examples and Customer Feedback</h4>
@@ -58,37 +54,24 @@ function Presentation() {
           </ul>
         </div>
       </Row>
-
-      {/* Sunum İndirme Butonu */}
       <Row style={{ justifyContent: "center", position: "relative" }}>
         <p style={{ marginTop: "20px", textAlign: "center" }}>
           <strong style={{ color: "#7e3b8e" }}>
-           You can access the BPC Infrastructure & Automation Company Slide File here:
+            BPC Altyapı&Otomasyon Firma Slayt Dosyası'na buradan ulaşabilirsiniz:
           </strong>
           <br />
           <br />
           <FontAwesomeIcon icon={faArrowAltCircleDown} size="3x" />
         </p>
+      </Row>
+      <Row style={{ justifyContent: "center", position: "relative" }}>
         <Button
           variant="primary"
           onClick={downloadPresentation}
           style={{ maxWidth: "250px", marginTop: "20px" }}
         >
-          Click here to download the Turkish presentation
+          Türkçe Sunum İndirmek İçin Tıklayınız
         </Button>
-      </Row>
-
-      {/* QR Kodu Eklenen Bölüm */}
-      <Row style={{ justifyContent: "center", position: "relative" }}>
-        <p style={{ marginTop: "20px", textAlign: "center" }}>
-          <strong style={{ color: "#7e3b8e" }}>
-            Scan the QR code for our company references and projects.
-          </strong>
-          <br /><br />
-          <a href="https://www.canva.com/design/DAFkS5xT0rM/-z6GLwKgLrF4hAB4ELaE0Q/view?utm_content=DAFkS5xT0rM&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink" target="_blank" rel="noopener noreferrer">
-            <img src={QRCode} alt="BPC Altyapı&Otomasyon QR Kodu" style={{ width: "250px", height: "250px" }} />
-          </a>
-        </p>
       </Row>
     </Container>
   );

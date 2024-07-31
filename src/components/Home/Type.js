@@ -11,11 +11,12 @@ function Type() {
           "Scripting with Python, CSS, C++",
           "Server Hardware Requirements",
           "Display Systems and IT Products",
+          "Solar Systems Installation&Automation with KNX Protocol",
           "Connection and IoT Equipment",
         ],
         autoStart: true,
         loop: true,
-        deleteSpeed: 50,
+        deleteSpeed: 25,
       }}
     />
   );
