@@ -34,7 +34,7 @@ function Home2() {
                 <b className="purple">Web Technologies and Products </b> and
                 also in areas related to{" "}
                 <b className="purple">
-                  Deep Learning and Natural Language Processing.
+                  Deep Learning and Natural Launguage Processing.
                 </b>
               </i>
               <br />
@@ -85,10 +85,6 @@ function Home2() {
                 </a>
               </li>
             </ul>
-            <h2>Our Address</h2>
-            <p className="home-about-body" style={{ textAlign: "center" }}>
-              Türkkuyusu, Hacı Resul Sk. No:5/B, 48400 Bodrum/Muğla
-            </p>
           </Col>
         </Row>
       </Container>
@@ -96,4 +92,4 @@ function Home2() {
   );
 }
 
-export default Home2;
+export default Home2
