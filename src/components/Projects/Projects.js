@@ -11,6 +11,9 @@ import bitsOfCode from "../../Assets/Projects/blog.png";
 import lufthansa from "../../Assets/Projects/lufthansa.png";
 import rwe from "../../Assets/Projects/rwe.png";
 import yandex from "../../Assets/Projects/yandex.png";
+import necdetorme from "../../Assets/Projects/necdetorme.png";
+import green from "../../Assets/Projects/green.png";
+import hanehouse from "../../Assets/Projects/hanehouse.png";
 
 function Projects() {
   return (
@@ -100,6 +103,30 @@ function Projects() {
               isBlog={false}
               //title="Yandex"
               description="We are collaborating with the Yandex team, providing support for their internal and cloud systems. Our recent endeavors include testing their network cables using the Fluke Network Testing process, which has led to the initiation of their cable certification. Additionally, we are assisting them in transitioning the database of their finance system from an internal setup to a cloud-based infrastructure."
+            />
+          </Col>
+          <Col md={4} lg={3} className="project-card">
+            <ProjectCard
+              imgPath={necdetorme}
+              isBlog={false}
+              //title="necdetorme"
+              description="We have successfully completed our smart garage system project at Necdet Örme. This system allows the company’s owners and their guests to charge their vehicles using solar power. Additionally, the continuous solar energy is used to support the electrical needs of their knitting machines, helping the company save on their monthly electricity bills."
+            />
+          </Col>
+          <Col md={4} lg={3} className="project-card">
+            <ProjectCard
+              imgPath={green}
+              isBlog={false}
+              //title="green"
+              description="We have completed a fully solar-powered heating, cooling, and home automation system for the owners of Green Chemicals at their residence in the Asos area. The project involved creating a self-sustaining, fully automated home with both software and physical components, integrated with a remote management system for complete control from a distance."
+            />
+          </Col>
+          <Col md={4} lg={3} className="project-card">
+            <ProjectCard
+              imgPath={hanehouse}
+              isBlog={false}
+              //title="hanehouse"
+              description="We are implementing automation systems for Hanehouse's boutique Tiny hotels in Asos Adatepe. This includes solar systems, electric vehicle charging stations, and creating smart home systems for them."
             />
           </Col>
         </Row>
